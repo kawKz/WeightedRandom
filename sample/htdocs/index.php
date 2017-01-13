@@ -3,7 +3,6 @@ require_once (dirname(__FILE__) . '/../../src/Base.php');
 require_once (dirname(__FILE__) . '/../../src/Drawer.php');
 require_once (dirname(__FILE__) . '/../../src/Util.php');
 
-//$instance = \WeightedRandom\Util::newInstance();
 $instance = new WeightedRandom\Drawer();
 $lots = array(
     'A'=>'<font size=3 color="#1B0CF5">60%の確率です</font>',
